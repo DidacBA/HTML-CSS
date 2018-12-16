@@ -1,0 +1,156 @@
+
+
+body {
+  font-family: arial;
+  margin: 0px;
+}
+
+.clearfix {
+  clear:both;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  position: relative;
+  left: 1em;
+  bottom: 0.5em;
+}
+
+.link-log {
+  position: relative;
+  float: left;
+  bottom: 0.3em;
+  left: 0.3em;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  position: relative;
+  bottom: 1.6em;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header {
+  color: white;
+  background-color: rgb(32,101,136);
+  background-image: url("city-scape.svg");
+  height: 60vh;
+  background-size: cover; 
+  background-position: right;
+}
+
+.logo {
+  width: 5%;
+  height: auto;
+  max-width: 100%;
+  min-width: 5%;
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  float: left;
+}
+
+input {
+  background-color: rgb(31, 82, 111);
+  border-color: rgba(255, 255, 255, 0.767);
+  border-width: 1px;
+  padding: 0.5%;
+  width: 72vw;
+  position: relative;
+  float: left;
+  bottom: 1em;
+}
+
+button {
+  background-color: rgb(31, 82, 111);
+  border-color: rgba(255, 255, 255, 0.767);
+  color:white;
+  border-width: 1px 1px 1px 0px;
+  padding: 0.5%;
+  position: relative;
+  float: left;
+  bottom: 1em;
+  text-decoration: none;
+} 
+
+header a {
+  position: relative;
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.round-button {
+  background-color: rgb(240, 146, 51);
+  width: 60%;
+  text-align: center;
+  padding: 1em;
+  border-radius: 25px;
+}
+
+.round-button2 {
+  background-color: rgb(240, 146, 51);
+  width: 60%;
+  text-align: center;
+  padding: 1em;
+  border-radius: 25px;
+}
+
+.first-box {
+  width: 30%;
+  margin: 0 auto;
+  padding-right: 20vw;
+}
+
+.section1 {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  padding: 10vw;
+  margin: none;
+}
+
+.section1 img {
+  width: 35%;
+  margin: 0 auto;
+
+}
+
+.section1-text {
+  position: relative;
+  float: right;
+  right: 10vw;
+}
+
+.section2 {
+  background-image: url("forklift.svg");
+  color: white;
+  margin: none;
+  padding: 10vw;
+}
+
+.section2-text {
+  position: relative;
+  width: 50%;
+  margin-right: 20vw;
+}
+
+.section3 div {
+  position: relative;
+  float: center;
+}
